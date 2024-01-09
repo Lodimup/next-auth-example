@@ -22,14 +22,14 @@ import NextAuth from "next-auth"
 // import Foursquare from "next-auth/providers/foursquare"
 // import Freshbooks from "next-auth/providers/freshbooks"
 // import Fusionauth from "next-auth/providers/fusionauth"
-import GitHub from "next-auth/providers/github"
+// import GitHub from "next-auth/providers/github"
 // import Gitlab from "next-auth/providers/gitlab"
 // import Google from "next-auth/providers/google"
 // import Hubspot from "next-auth/providers/hubspot"
 // import Instagram from "next-auth/providers/instagram"
 // import Kakao from "next-auth/providers/kakao"
 // import Keycloak from "next-auth/providers/keycloak"
-// import Line from "next-auth/providers/line"
+import Line from "next-auth/providers/line"
 // import LinkedIn from "next-auth/providers/linkedin"
 // import Mailchimp from "next-auth/providers/mailchimp"
 // import Mailru from "next-auth/providers/mailru"
@@ -92,14 +92,14 @@ export const config = {
     // Foursquare,
     // Freshbooks,
     // Fusionauth,
-    GitHub,
+    // GitHub,
     // Gitlab,
     // Google,
     // Hubspot,
     // Instagram,
     // Kakao,
     // Keycloak,
-    // Line,
+    Line,
     // LinkedIn,
     // Mailchimp,
     // Mailru,
